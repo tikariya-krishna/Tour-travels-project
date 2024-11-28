@@ -1,0 +1,40 @@
+/* .main-menu{
+    display: flex;
+    justify-content: space-around;
+} */
+.navigation-bar{
+    /* background-image: url("../image//sunset.jpg"); */
+    background-color: #b0dcdc;
+}
+.menu-link a{
+    text-decoration: none;
+}
+.menu-link div{
+    font-size: larger;
+}
+.menu-link a:hover{
+    text-decoration: underline;
+}
+.main-menu{
+    margin: 0;
+}
+.link-list li{
+    list-style-type: none;
+}
+.link-list li a{
+    font-weight: 600 !important; 
+    font-size: 20px;
+    color: #000;
+}
+.search-div input{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 250px;
+    background: transparent;
+}
+.search-div input::placeholder{
+    color: #000;
+}
+.logo-img img{
+    background: transparent;
+}

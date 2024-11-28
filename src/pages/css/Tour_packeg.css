@@ -1,0 +1,95 @@
+.col{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.detail{
+    border-bottom: 1px solid #000;
+}
+.booking{
+    display: flex;
+    justify-content: space-around;
+}
+.main-packeg div{
+    margin-top: 13px;
+}
+.main-packeg{
+    padding-top: 10px;
+}
+.packege-img img{
+    width: 500px;
+    height: 330px;
+    border-radius: 20px;
+}
+.container-pac{
+    margin: 0 auto;
+    width: 92%;
+}
+
+
+/* second try css */
+
+/* .under-img{
+    position: relative;
+}
+.uper-txt{
+    position: absolute;
+    padding: 137px 178px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    width: auto;
+    left: 7.3%;
+}
+.uper-txt{
+    opacity: 0%;
+}
+.uper-txt:hover{
+    opacity: 60%;
+    transition-duration: 1s;
+}
+.uper-txt-mount{
+    padding: 137px 143.5px;
+}
+.uper-txt-water{
+    padding: 137px 196.5px;
+} */
+
+
+
+.book-btn{
+    font-weight: 600;
+}
+.book-btn:hover{
+    transition-duration: 1s;
+    background-color: #fff;
+    color: #000;
+    
+}
+.right-searchpack strong,.right-searchpack label{
+    font-size: 20px;
+}
+.btn{
+    color: goldenrod;
+    background-color: #fff;
+    font-size: 18px;
+}
+/* .btn:hover{
+    text-decoration: none;
+    color: goldenrod;
+} */
+.main-packeg{
+    background-color: #fff;
+}
+.no-gutters{
+    margin: 0;
+    background-color: #000;
+    border-radius: 16px;
+    padding: 15px;
+}
+.filtersearch-packages{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 2px;
+}

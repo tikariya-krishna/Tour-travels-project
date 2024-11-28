@@ -1,0 +1,62 @@
+.contact{
+	background: url(image/contact-bg.jpg), rgba(0, 0, 0, 0.7);
+    position: relative;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 100px 0;
+}
+.info{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.info .contact-info{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.info input,.info textarea{
+	border: none;
+	border-bottom: 1px solid dimgrey;
+    background-color: transparent;
+    opacity: 0.5;
+    padding: 20px 0;
+}
+.find-us,.email-us,.call-us{
+	color: #39b54a;
+}
+.form-btn{
+	background-color: #39b54a;
+	color: #fff;
+}
+.form-icon{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+
+/* Secon try */
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	transition-duration: 1s;
+	text-decoration: underline;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+.par-link-comonent{
+	background-color: #b0dcdc;
+}
+.par-link-comonent .container .row{
+	margin: 0;
+}
+.link-header{
+	font-weight: 700;
+	font-size: 18px;
+}
+.link-component ul li a{
+	color: #000;
+}
